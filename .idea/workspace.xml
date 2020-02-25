@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef0d3461-7fad-408e-8d5e-1a11477982f1" name="Default Changelist" comment="" />
+    <list default="true" id="ef0d3461-7fad-408e-8d5e-1a11477982f1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,17 +17,36 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Y2ICs0r8WOHWhaoLfmPOtlqoQS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
   </component>
-  <component name="RunManager" selected="Flask server.Flask (app.py)">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding\Python\project\PoliceBsGit\police-bs-backend\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding\Python\project\PoliceBsGit\police-bs-backend\static" />
+      <recent name="D:\Coding\Python\project\PoliceBsGit\police-bs-backend" />
+      <recent name="D:\Coding\Python\project\PoliceBsGit\police-bs-backend\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flask server.PoliceBs">
     <configuration name="debug" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PoliceBs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,7 +120,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -108,13 +129,14 @@
       <method v="2" />
     </configuration>
     <configuration name="PoliceBs" type="Python.FlaskServer">
+      <option name="flaskDebug" value="true" />
       <module name="PoliceBs" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
       <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="D:\Coding\Python\project\PoliceBs\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -124,16 +146,16 @@
     </configuration>
     <list>
       <item itemvalue="Flask server.PoliceBs" />
+      <item itemvalue="Flask server.Flask (app.py)" />
       <item itemvalue="Python.yolo_video" />
       <item itemvalue="Python.yolo" />
-      <item itemvalue="Flask server.Flask (app.py)" />
       <item itemvalue="Python.debug" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Flask server.Flask (app.py)" />
-        <item itemvalue="Python.debug" />
         <item itemvalue="Python.yolo" />
+        <item itemvalue="Python.debug" />
         <item itemvalue="Python.yolo_video" />
       </list>
     </recent_temporary>
@@ -162,34 +184,47 @@
       <updated>1582134137831</updated>
       <workItem from="1582134155532" duration="6299000" />
       <workItem from="1582179205325" duration="613000" />
-      <workItem from="1582187209105" duration="4478000" />
+      <workItem from="1582187209105" duration="3763000" />
+      <workItem from="1582467548229" duration="2158000" />
+      <workItem from="1582614451140" duration="6937000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="96" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582139584410">
+    <state x="96" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582621120997">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="96" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1582139584410" />
-    <state width="1238" height="203" key="GridCell.Tab.0.bottom" timestamp="1582193638574">
+    <state x="96" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1582621120997" />
+    <state x="371" y="147" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582621198522">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="203" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1582193638574" />
-    <state width="1238" height="203" key="GridCell.Tab.0.center" timestamp="1582193638574">
+    <state x="371" y="147" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1582621198522" />
+    <state x="421" y="156" key="FileChooserDialogImpl" timestamp="1582614768827">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="203" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1582193638574" />
-    <state width="1238" height="203" key="GridCell.Tab.0.left" timestamp="1582193638574">
+    <state x="421" y="156" key="FileChooserDialogImpl/0.0.1280.800@0.0.1280.800" timestamp="1582614768827" />
+    <state width="1238" height="203" key="GridCell.Tab.0.bottom" timestamp="1582622498613">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="203" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1582193638574" />
-    <state width="1238" height="203" key="GridCell.Tab.0.right" timestamp="1582193638574">
+    <state width="1238" height="203" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1582622498613" />
+    <state width="1238" height="203" key="GridCell.Tab.0.center" timestamp="1582622498613">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="203" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1582193638574" />
+    <state width="1238" height="203" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1582622498613" />
+    <state width="1238" height="203" key="GridCell.Tab.0.left" timestamp="1582622498613">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="203" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1582622498613" />
+    <state width="1238" height="203" key="GridCell.Tab.0.right" timestamp="1582622498613">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="203" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1582622498613" />
     <state x="324" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1582187283771">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -201,6 +236,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PoliceBs$Flask.coverage" NAME="Flask Coverage Results" MODIFIED="1582134270812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/police_bs_backend$PoliceBs.coverage" NAME="PoliceBs Coverage Results" MODIFIED="1582621368862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/police_bs_backend$yolo.coverage" NAME="yolo Coverage Results" MODIFIED="1582618348896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/police_bs_backend$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1582621066539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PoliceBs$PoliceBs.coverage" NAME="PoliceBs Coverage Results" MODIFIED="1582188863081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/PoliceBs$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1582189682275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/PoliceBs$yolo_video.coverage" NAME="yolo_video Coverage Results" MODIFIED="1582135547672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

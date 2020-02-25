@@ -2,9 +2,10 @@ import json
 from datetime import timedelta, datetime
 from yolo import *
 from flask import Flask, request, jsonify
-
+from flask import Flask, render_template, Response
 import cv2
 from PIL import Image
+from importlib import import_module
 
 app = Flask(__name__)
 # 设置静态文件缓存过期时间
@@ -13,9 +14,20 @@ app.debug = True
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'JPG', 'PNG', 'bmp'}
 
+if os.environ.get('CAMERA'):
+    Camera = import_module('camera_' + os.environ['CAMERA']).Camera
+else:
+    from camera_opencv import Camera
+
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1] in ALLOWED_EXTENSIONS
+
+
+@app.route('/')
+def index():
+    """Video streaming home page."""
+    return render_template('index.html')
 
 
 '''
@@ -40,7 +52,7 @@ def traffic_count():
         file_name = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
         file_path = 'Img-Save/' + file_name + '.png'
         img_file.save(file_path)
-        img, res = detect_img(file_path)
+        img, res = detect_img(file_path, 0)
         r_back = {}
         j = 1
         for i in res:
@@ -51,7 +63,31 @@ def traffic_count():
         print(r_back)
         # img.show()
         img.save(file_path, quality=95)
-        return r_back
+        return r_back   
+
+
+def gen(camera):
+    """Video streaming generator function."""
+    while True:
+        frame = camera.get_frame()
+        yield (b'--frame\r\n'
+               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
+
+
+'''
+title: 车流识别(full screen)
+input
+    type: video-streaming
+return
+    type: image
+'''
+
+
+@app.route('/video_feed')
+def video_feed():
+    """Video streaming route. Put this in the src attribute of an img tag."""
+    return Response(gen(Camera()),
+                    mimetype='multipart/x-mixed-replace; boundary=frame')
 
 
 if __name__ == '__main__':

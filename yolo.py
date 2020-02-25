@@ -7,6 +7,7 @@ import colorsys
 import os
 from timeit import default_timer as timer
 
+import cv2
 import numpy as np
 from keras import backend as K
 from keras.models import load_model
@@ -28,7 +29,7 @@ class YOLO(object):
         "score": 0.3,
         "iou": 0.45,
         "model_image_size": (416, 416),
-        "gpu_num": 1,
+        "gpu_num": 0,
     }
 
     @classmethod
@@ -216,10 +217,14 @@ def detect_video(yolo, video_path, output_path=""):
 enter = YOLO()
 
 
-def detect_img(path):
+def detect_img(img, key):
     K.clear_session()
-    image = Image.open(path)
+    if key:
+        image = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
+    else:
+        image = Image.open(img)
     r_image, res = enter.detect_image(image)
+
     return r_image, res
 
 
